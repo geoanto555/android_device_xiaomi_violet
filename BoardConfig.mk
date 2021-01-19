@@ -111,7 +111,7 @@ TW_INCLUDE_FBE := true
 #TW_INCLUDE_CRYPTO_FBE := true
 
 # TWRP specific build flags
-TW_THEME := portrait_hdpi
+TW_THEME := portrait_hdpi_ginkgo_w-l
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
@@ -123,19 +123,15 @@ TW_DEFAULT_LANGUAGE := en
 TW_NO_LEGACY_PROPS := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 255
-TW_DEFAULT_BRIGHTNESS := 96
+TW_DEFAULT_BRIGHTNESS := 170
 TW_USE_TOOLBOX := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_HAS_EDL_MODE := true
-TW_Y_OFFSET := 80
-TW_H_OFFSET := -80
-
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
-
 # Extra Tags I can't list
 AB_OTA_UPDATER := false
 TW_USE_QCOM_HAPTICS_VIBRATOR := true
